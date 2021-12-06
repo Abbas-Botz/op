@@ -371,9 +371,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     + 'N:;Dika Ardnt.;;;'
                     + 'FN:Dika Ardnt.\n' // full name
                     + 'ORG:Owner Bot;\n' // the organization of the contact
-                    + 'TEL;type=CELL;type=VOICE;waid=6288292024190:+62 882-9202-4190\n' // WhatsApp ID + phone number
+                    + 'TEL;type=CELL;type=VOICE;waid=6281368919992:+62 813-6891-9992\n' // WhatsApp ID + phone number
                     + 'END:VCARD'
-                hisoka.sendMessage(m.chat, { contacts: { displayName: 'Dika Ardnt.', contacts: [{ vcard }] } }, { quoted: m })
+                hisoka.sendMessage(m.chat, { contacts: { displayName: 'Abbas .', contacts: [{ vcard }] } }, { quoted: m })
             }
             break
             case 'eval': {
@@ -401,7 +401,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 let buttonMessage = {
                     image: {url: 'https://telegra.ph/file/bb15c9a53c4a0b68a99fa.jpg' },
                     caption: `Hello @${m.sender.split("@")[0]}`,
-                    footerText: 'Hi Im Hisoka Bot',
+                    footerText: 'Hi Im Abbas Bot',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -483,7 +483,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 813-6891-9992'
                                 }
                             }, {
                                 quickReplyButton: {
